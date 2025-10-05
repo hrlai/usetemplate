@@ -3,19 +3,19 @@
 Welcome! This is currently a personal project to streamline the setting up of R
 scripts from templates. 
 
-# Installation
+## Installation
 
 ```
 pak::pak("hrlai/usetemplate")
 ```
 
-# Getting started
+## Getting started
 
-# Built-in templates
+## Built-in templates
 
-# Customising your own templates
+## Customising your own templates
 
-# Bugs and issues
+## Bugs and issues
 
 Please report it on the GitHub Issues page, including:
 1. A description of the bug/issue
