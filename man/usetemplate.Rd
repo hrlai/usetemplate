@@ -4,7 +4,13 @@
 \alias{usetemplate}
 \title{Create R script from a template}
 \usage{
-usetemplate(filename, path_dest = ".", path_template = NULL, template = NULL)
+usetemplate(
+  filename,
+  path_dest = ".",
+  path_template = NULL,
+  template = NULL,
+  overwrite = FALSE
+)
 }
 \arguments{
 \item{filename}{A character string of the filename of R script to be created,
@@ -18,6 +24,8 @@ When it is NULL (the default), it will use the built-in template directory.}
 
 \item{template}{A character string of the template filename, without the \code{.R}
 extension.}
+
+\item{overwrite}{Logical; whether to overwrite an existing R script or not.}
 }
 \value{
 An R script stored in the \code{path_dest} directory.
